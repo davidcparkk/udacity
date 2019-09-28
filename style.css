@@ -1,0 +1,122 @@
+body{
+  font-family: 'Nunito', sans-serif;
+}
+
+#sign-up{
+  background-color: #1db954;
+  color: white;
+  width: 40%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+#sign-in{
+  background-color: #3b5998;
+  color: white;
+  width: 40%;
+  height: 45px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+  text-transform: uppercase;
+}
+
+.button-container{
+  display:flex; 
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.intro {
+    margin-top: 50px;
+    width: 100%;
+    border-top: 1px solid black;
+    padding-right: 20px;
+  }
+
+  .error{
+    color:red;
+  }
+
+  .messageDisplay{
+    color: red;
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+  }
+  
+  #content {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    max-width: 500px;
+    padding: 35px 65px 45px 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    /* background-color: #7fdbff; */
+    border-radius: 35px;
+    opacity: 0.8;
+  }
+
+  #loading{
+    display: none;
+    background: gray;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("http://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .form-group {
+    margin: 1em 0;
+    padding: 2px 0 2px 0;
+  }
+  
+  .form-group label {
+    display: inline-block;
+  }
+  
+  .form-group input {
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+  }
+
+  #sign-up #sign-in{
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-left: 1em;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-bottom: 1px solid gray;
+  }
+
+  h1, h3 {
+    margin: 5px 0px;
+  }
